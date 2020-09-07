@@ -1,0 +1,5 @@
+bua-caffe-frcn-r101_with_attributes.pth
+bottom_up_attention.pytorch.egg-info
+.idea
+build/
+__pycache__/

@@ -1,9 +1,3 @@
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
-"""
-TridentNet Training Script.
-
-This script is a simplified version of the training script in detectron2/tools.
-"""
 import argparse
 import os
 import sys
@@ -51,13 +45,13 @@ def main():
 
     parser.add_argument('--out-dir', dest='output_dir',
                         help='output directory for features',
-                        default="features")
+                        default="data/features")
     parser.add_argument('--image-dir', dest='image_dir',
                         help='directory with images',
-                        default="image")
+                        default="data/coco_img")
     parser.add_argument('--gt-bbox-dir', dest='gt_bbox_dir',
                         help='directory with gt-bbox',
-                        default="bbox")
+                        default="data/bbox")
     parser.add_argument(
         "--resume",
         action="store_true",
